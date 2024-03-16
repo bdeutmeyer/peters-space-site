@@ -1,4 +1,24 @@
 body {
+    background-image: url('spaceman-background.jpeg');
     background-color: black;
-    color: white;
+    background-size: cover;
+    color:aquamarine;
+    display: relative;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    
 }

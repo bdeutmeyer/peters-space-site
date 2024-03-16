@@ -21,7 +21,11 @@ soyuzBtn.addEventListener('click', () => {
     const soyuzInfo5 = document.createElement('p');
     soyuzInfo5.innerHTML = "All about reentry! As the Soyuz gets to a safe distance from the ISS, the thrusters can be used again the soyuz does a short engine burn. 30 minutes after the short engine burn, the Soyuz rotates ninety degrees. This is to ensure that each module has a different path back to earth. Part of the reason why the service module burns up in the atmosphere is because the it is normally filled with trash from the ISS. It does not have a heat shield. Then the crew will re-enter the earth's atmosphere. After they go through the upper atmosphere, there is a series of parachutes that open. There are two pilot parachutes and one drogue parachute which slows the capsule down enough to open the main parachute. If the main parachute does not work, there is a backup parachute. Two seconds before the capsule touches the ground, they eject the heat shield from the bottom of the capsule. This exposes six soft landing thrusters to help cushion the moment of impact. To also help, the seats rise up on shock absorbers. It's still quite a jolt when they touch down. The recovery crew will be nearby to welcome the astronauts and cosmonauts home. The astronauts and cosmonauts will need help getting out of their seats. Then they can be welcomed back on Earth, and our job here is done!" 
     
-    
+    soyuzInfo.setAttribute('style', "background-color: black; padding: 5px; ")
+    soyuzInfo2.setAttribute('style', "background-color: black; padding: 5px; ")
+    soyuzInfo3.setAttribute('style', "background-color: black; padding: 5px; ")
+    soyuzInfo4.setAttribute('style', "background-color: black; padding: 5px; ")
+    soyuzInfo5.setAttribute('style', "background-color: black; padding: 5px; ")
 
 
     soyuzSec.appendChild(soyuzInfo)
