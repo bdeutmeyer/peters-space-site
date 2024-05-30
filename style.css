@@ -1,7 +1,7 @@
 body {
     background-image: url('spaceman-background.jpeg');
     background-color: black;
-    background-size: cover;
+    background-size: 100vw;
     color:aquamarine;
     display: relative;
 }
