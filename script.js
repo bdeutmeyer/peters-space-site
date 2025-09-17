@@ -42,6 +42,9 @@ shuttleBtn.addEventListener('click', () => {
     shuttleSec.appendChild(shuttleInfo1)
 });
 
+shuttleInfo1.setAttribute('style', "background-color: black; padding: 5px; ");
+
+
 saturnBtn.addEventListener('click', () => {
     const saturnInfo = document.createElement('p');
     saturnInfo.innerHTML = "Saturn V info coming soon!"
