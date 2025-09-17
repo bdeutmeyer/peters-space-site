@@ -40,9 +40,11 @@ shuttleBtn.addEventListener('click', () => {
     const shuttleInfo1 = document.createElement('p');
     shuttleInfo1.innerHTML = "The Space Shuttle is retired. It no longer flies. I personally think that it's still really important to learn about because some of this technology is still being used for space programs. I'll talk about the details of the launch pad, the buildings,and the Shuttle's misson into space. After a mission, the engineers would literally crawl all over the shuttle to help it be used again for a future misson. This would take a few months to complete. Meanwhile, work happens in the big buildings over to the right. The orange external tank will be assembled, and the solid rocket boosters with the solid rocket fuel inside. So when the launch happens, they don't need to fuel it up."
     shuttleSec.appendChild(shuttleInfo1)
+
+    shuttleInfo1.setAttribute('style', "background-color: black; padding: 5px; ");
 });
 
-shuttleInfo1.setAttribute('style', "background-color: black; padding: 5px; ");
+
 
 
 saturnBtn.addEventListener('click', () => {
